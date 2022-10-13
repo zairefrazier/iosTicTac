@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F27737828F7ED5B00F704A0 /* OnevOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27737728F7ED5B00F704A0 /* OnevOne.swift */; };
 		3FD757F928F5B30B00776DF6 /* TacViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD757F828F5B30B00776DF6 /* TacViewModel.swift */; };
 		3FF606B428EBB2540051975C /* tictactoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF606B328EBB2540051975C /* tictactoeApp.swift */; };
 		3FF606B628EBB2540051975C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF606B528EBB2540051975C /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F27737728F7ED5B00F704A0 /* OnevOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnevOne.swift; sourceTree = "<group>"; };
 		3FD757F828F5B30B00776DF6 /* TacViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacViewModel.swift; sourceTree = "<group>"; };
 		3FF606B028EBB2540051975C /* tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF606B328EBB2540051975C /* tictactoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoeApp.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				3FF606B328EBB2540051975C /* tictactoeApp.swift */,
 				3FF606B528EBB2540051975C /* ContentView.swift */,
 				3FD757F828F5B30B00776DF6 /* TacViewModel.swift */,
+				3F27737728F7ED5B00F704A0 /* OnevOne.swift */,
 				3FF606B728EBB2570051975C /* Assets.xcassets */,
 				3FF606B928EBB2570051975C /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F27737828F7ED5B00F704A0 /* OnevOne.swift in Sources */,
 				3FF606C228EBC1580051975C /* AiTacView.swift in Sources */,
 				3FF606B628EBB2540051975C /* ContentView.swift in Sources */,
 				3FF606C428EC37990051975C /* Alerts.swift in Sources */,
