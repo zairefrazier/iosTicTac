@@ -14,7 +14,6 @@ struct ContentView: View {
     @State var moves : [String] = Array(repeating: "", count: 9)
     
     @State var isPlaying = false
-    
     var body: some View {
 //        GeometryReader { geometry in
 //            VStack {
