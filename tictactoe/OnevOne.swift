@@ -22,22 +22,18 @@ struct OnevOne: View {
                 LazyVGrid(columns: colums, spacing: 15) {
                     ForEach(0..<9) { i in
                         ZStack {
-
                             RoundedRectangle(cornerRadius: 20)
                                 .stroke(.red).opacity(1.0)
 
-
                             RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(.blue.opacity(moves[i] == "" ? 1 : 0))
-
                                 .frame(width: geometry.size.width/3-15, height: geometry.size.width/3-15)
+                            
                             Text(moves[i])
                                 .font(.system(size: 55))
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .fontWeight(.bold)
-
                         }
-
                         .rotation3DEffect(.init(degrees: moves[i] != "" ? 180 : 0), axis: (x: 0.0, y: 1.0, z: 0.0), anchor: .center, anchorZ: 0.0, perspective: 1.0)
 
                         .onTapGesture {
