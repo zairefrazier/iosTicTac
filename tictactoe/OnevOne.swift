@@ -38,7 +38,7 @@ struct OnevOne: View {
 
                         .onTapGesture {
 
-                            withAnimation(Animation.easeIn(duration: 0.75)){
+                            withAnimation(Animation.easeIn(duration: 0.25)){
 
 
                                 if moves[i] == ""{

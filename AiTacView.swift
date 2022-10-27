@@ -21,9 +21,10 @@ struct AiTacView: View {
                             GameSquareView(proxy: geometry)
                             PlayerId(systemImageName: viewModel.moves[i]?.indicator ?? "")
                         }
-                        .onTapGesture {
+                        .onTapGesture {withAnimation(Animation.easeIn(duration: 0.25)){
                             viewModel.processPlayerMove(for: i)
                         }
+                    }
                     }
                 }
                 Spacer()
@@ -63,6 +64,9 @@ struct GameSquareView: View {
     var proxy: GeometryProxy
     
     var body: some View {
+        RoundedRectangle(cornerRadius: 20)
+            .foregroundColor(.green).opacity(0.6)
+            .frame(width: proxy.size.width/3-15, height: proxy.size.width/3-15)
         RoundedRectangle(cornerRadius: 20)
             .foregroundColor(.green).opacity(0.6)
             .frame(width: proxy.size.width/3-15, height: proxy.size.width/3-15)

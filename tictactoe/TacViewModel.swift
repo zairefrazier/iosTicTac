@@ -39,7 +39,7 @@ final class TacViewModel: ObservableObject {
         
         
         //COMPUTER MOVES
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { [self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [self] in
             let computerPostion = computerMoves(in: moves)
             moves[computerPostion] = Move(player: .computer, boardIndex: computerPostion)
                 isBoardDisabled = false
