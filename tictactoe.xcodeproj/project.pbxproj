@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F27737828F7ED5B00F704A0 /* OnevOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27737728F7ED5B00F704A0 /* OnevOne.swift */; };
+		3F36E159290FC47800AB4E48 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36E158290FC47800AB4E48 /* SplashView.swift */; };
 		3FD757F928F5B30B00776DF6 /* TacViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD757F828F5B30B00776DF6 /* TacViewModel.swift */; };
 		3FF606B428EBB2540051975C /* tictactoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF606B328EBB2540051975C /* tictactoeApp.swift */; };
 		3FF606B628EBB2540051975C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF606B528EBB2540051975C /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		3F27737728F7ED5B00F704A0 /* OnevOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnevOne.swift; sourceTree = "<group>"; };
+		3F36E158290FC47800AB4E48 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = SOURCE_ROOT; };
 		3FD757F828F5B30B00776DF6 /* TacViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacViewModel.swift; sourceTree = "<group>"; };
 		3FF606B028EBB2540051975C /* tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF606B328EBB2540051975C /* tictactoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoeApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		3FF606B228EBB2540051975C /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
+				3F36E158290FC47800AB4E48 /* SplashView.swift */,
 				3FF606C128EBC1580051975C /* AiTacView.swift */,
 				3FF606C328EC37990051975C /* Alerts.swift */,
 				3FF606B328EBB2540051975C /* tictactoeApp.swift */,
@@ -155,6 +158,7 @@
 				3FF606C428EC37990051975C /* Alerts.swift in Sources */,
 				3FF606B428EBB2540051975C /* tictactoeApp.swift in Sources */,
 				3FD757F928F5B30B00776DF6 /* TacViewModel.swift in Sources */,
+				3F36E159290FC47800AB4E48 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
