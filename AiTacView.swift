@@ -36,6 +36,7 @@ struct AiTacView: View {
                     viewModel.resetGame()
                 }))
             })
+            .background(LinearGradient(colors: [Color("Color"),.red], startPoint: .trailing, endPoint: .top))
         }
     }
 }

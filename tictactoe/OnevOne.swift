@@ -22,11 +22,10 @@ struct OnevOne: View {
                 LazyVGrid(columns: colums, spacing: 15) {
                     ForEach(0..<9) { i in
                         ZStack {
-                            RoundedRectangle(cornerRadius: 20)
-                                .stroke(.red).opacity(1.0)
+                            
 
                             RoundedRectangle(cornerRadius: 20)
-                                .foregroundColor(.blue.opacity(moves[i] == "" ? 1 : 0))
+                                .foregroundColor(.yellow.opacity(moves[i] == "" ? 1 : 0))
                                 .frame(width: geometry.size.width/3-15, height: geometry.size.width/3-15)
                             
                             Text(moves[i])
@@ -54,6 +53,7 @@ struct OnevOne: View {
                 }
                 Spacer()
             }
+            .background(LinearGradient(colors: [Color("Color"),.red], startPoint: .trailing, endPoint: .top))
 
         }
     }
