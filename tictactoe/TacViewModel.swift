@@ -23,8 +23,6 @@ final class TacViewModel: ObservableObject {
         if isSquaredTaken(in: moves, forIndex: position) {return}
                 moves[position] = Move(player: .human, boardIndex: position)
         
-        
-        
         if checkWinCondition(for: .human, in: moves) {
             alertItem = AlertConext.humanWin
                 return

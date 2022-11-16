@@ -20,7 +20,6 @@ struct ContentView: View {
                     .offset(x: 200, y: 150)
                                 
                 VStack{
-                                    
                     Home()
                         .navigationTitle("Tic Tac Toe")
                         .offset(y: -100)
@@ -38,7 +37,6 @@ struct ContentView: View {
                                     .bold()
                                 .foregroundColor(.white)
                             }
-                            
                         })
                         Spacer()
                         NavigationLink(destination: AiTacView() , label: {
@@ -88,8 +86,6 @@ struct Home: View {
         .padding(.horizontal)
     }
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

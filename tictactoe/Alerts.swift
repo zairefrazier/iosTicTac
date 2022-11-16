@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 struct AlertItem: Identifiable {
     
     let id = UUID()
@@ -16,9 +15,7 @@ struct AlertItem: Identifiable {
     var title: Text
     var message: Text
     var buttonTitle: Text
-    
 }
-
 
 struct AlertConext {
     
