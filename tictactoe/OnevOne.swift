@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-
 let colums: [GridItem] = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
 
 struct OnevOne: View {
-    
     @State var moves : [String] = Array(repeating: "", count: 9)
     
     @State var isPlaying = false
@@ -22,7 +20,6 @@ struct OnevOne: View {
                 LazyVGrid(columns: colums, spacing: 15) {
                     ForEach(0..<9) { i in
                         ZStack {
-                            
 
                             RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(.yellow.opacity(moves[i] == "" ? 1 : 0))
