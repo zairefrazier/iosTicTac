@@ -87,10 +87,20 @@ struct OnevOne: View {
             
                         
         }
-        if checkMoves(player: "O") {
+        else if checkMoves(player: "O") {
             msg = "Player O Won"
             gameOver.toggle()
             
+        } else {
+            let status = moves.contains{ (value) -> Bool in
+                
+                return value == ""
+                
+            }
+            if !status{
+                msg = "Game Over Tied!!!"
+                gameOver.toggle()
+            }
         }
         
     }
@@ -100,6 +110,18 @@ struct OnevOne: View {
             if moves[i] == player && moves[i+1] == player && moves[i+2] == player {
                 return true
             }
+        }
+        for i in 0...2 {
+            if moves[i] == player && moves[i+3] == player && moves[i+6] == player {
+                return true
+            }
+        }
+        if moves[0] == player && moves[4] == player && moves[8] == player {
+            return true
+        }
+        
+        if moves[2] == player && moves[4] == player && moves[6] == player {
+            return true
         }
         return false
     }
